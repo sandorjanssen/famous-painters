@@ -1,0 +1,1 @@
+{"version":3,"sources":["painters.ts"],"names":["Painters","Painters.constructor"],"mappings":"AAAA,IAAM,QAAQ;IAAdA,SAAMA,QAAQA;QACVC,UAAKA,GAAQA,EAAEA,CAACA;IACpBA,CAACA;IAADD,eAACA;AAADA,CAFA,AAECA,IAAA","file":"painters.js","sourcesContent":["class Painters<T> {\r\n    items: T[] = [];\r\n}"],"sourceRoot":"/source/"}

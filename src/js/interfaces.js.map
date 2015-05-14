@@ -1,0 +1,1 @@
+{"version":3,"sources":["interfaces.ts"],"names":[],"mappings":"AAIC","file":"interfaces.js","sourcesContent":["interface IPainter {\r\n\tname: string;\r\n\tstyle: string;\r\n\texamples: string[];\r\n}"],"sourceRoot":"/source/"}

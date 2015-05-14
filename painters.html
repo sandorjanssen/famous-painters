@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Famous Painters</title>
+        <link href="styles/app.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="row">
+            <div class="col-md-1">
+                <img class="logoImg" src="images/brush.png" />
+            </div>
+            <div class="col-md-11 pull-left">
+                <h1>Famous Painters</h1>
+            </div>
+        </div>
+        <br />
+        <div id="content">
+            <h2>Painter</h2>
+            <div>
+                <select id="Painter">
+                    <option disabled>Choose a painter...</option>
+                </select>
+            </div>
+            <h2>Details</h2>
+            <div id=painterDetails>
+                <h4>Name:</h4><div id="painterName"></div>
+                <h4>Style:</h4><div id="painterStyle"></div>
+                <h4>Examples:</h4><ul id="painterExamples"></ul>
+            </div>
+        </div>
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+        <script src="src/js/painterLoader.js"></script>
+        <script src="src/js/painter.js"></script>
+        <script src="src/js/painters.js"></script>
+        <script src="src/js/renderer.js"></script>
+        <script src="src/js/app.js"></script>            
+    </body>
+</html>
